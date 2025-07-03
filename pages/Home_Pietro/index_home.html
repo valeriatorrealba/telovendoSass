@@ -12,40 +12,47 @@
 
 <body>
     <header>
-        <div class="navbar">
-            <div class="navbar-left">
-                <div class="logo">
-                    <div class="logo-icon">
-                        <div class="square">
-                            <img src="/assets/images/icono.jpg" alt="Logo" />
-                        </div>
-                    </div>
-                    <div class="logo-text">Te lo Vendo</div>
-                </div>
-                <div class="nav-links">
-                    <div class="nav-item">Home</div>
-                    <div class="nav-item">Shop</div>
-                    <div class="nav-item">About</div>
-                    <div class="nav-item">Contact</div>
-                </div>
-            </div>
-            <div class="navbar-right">
-                <div class="search-box">
-                    <div class="search-icon-container">
-                        <div class="search-icon">
-                            <img src="/assets/images/lupa.jpg" alt="buscador">
-                        </div>
-                    </div>
-                    <div class="search-text">Search</div>
-                </div>
-                <div class="cart-icon">
-                    <div class="cart-square">
-                        <img src="/assets/images/carrito.jpg" alt="carrito">
-                    </div>
-                </div>
-                <img class="profile-pic" src="/assets/images/foto.jpg" alt="fot de perfil">
-            </div>
+        <nav class="navbar navbar-expand-lg bg-light px-4">
+  <div class="container-fluid">
+    <!-- LOGO -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="../../assets/images/icono.jpg" alt="Logo" width="30" height="30" class="me-2 rounded">
+      <span>Te lo Vendo</span>
+    </a>
+
+    <!-- NAV LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../Home_Pietro/index_home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../catalog/catalog.html">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Detail</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
+
+      <!-- RIGHT SECTION -->
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-flex align-items-center border rounded px-2 py-1">
+          <img src="../../assets/images/lupa.jpg" alt="Buscar" width="20" height="20" class="me-2">
+          <span>Search</span>
         </div>
+        <a href="#" class="position-relative">
+          <img src="../../assets/images/carrito.jpg" alt="Carrito" width="30" height="30" class="rounded">
+        </a>
+        <img src="../../assets/images/foto.jpg" alt="Perfil" width="30" height="30" class="rounded-circle">
+      </div>
+    </div>
+  </div>
+</nav>
+
+
     </header>
     <main>
         <div class="container">
