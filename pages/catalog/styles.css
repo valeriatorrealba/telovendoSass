@@ -61,6 +61,15 @@ main {
   border: none;
 }
 
+.catalog__card-title {
+  color: #171212;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
 .custom-pagination .page-link {
   width: 40px;
   height: 40px;
@@ -86,4 +95,27 @@ main {
   opacity: 0.5;
 }
 
+.footer {
+  background-color: #f8f9fa; /* similar a bg-light */
+  padding: 3rem 0;
+  border-top: 1px solid #ddd;
+}
 
+.footer__link-item {
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.footer__link-item:hover {
+  color: #171212;
+}
+
+.footer__copyright-text {
+  color: #6c757d;
+}
+
+.footer__container {
+  max-width: 928px;
+  margin: 0 auto;
+}
