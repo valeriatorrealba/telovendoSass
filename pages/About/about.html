@@ -24,37 +24,45 @@
 <body>
 <header> 
   <!--header Te lo vendo logo--  --> 
-  
-	
-	<header>
-      <div class="navbar">
-        <div class="navbar-left">
-            <div class="logo-section">
-                <img src="./assets/img/logo.jpg" alt="Logo" class="logo-img" />
-                <div class="brand-name">Te lo Vendo</div>
-            </div>
+   <nav class="navbar navbar-expand-lg bg-light px-4">
+  <div class="container-fluid">
+    <!-- LOGO -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="../../assets/images/icono.jpg" alt="Logo" width="30" height="30" class="me-2">
+      <span>Te lo Vendo</span>
+    </a>
+
+    <!-- NAV LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../Home_Pietro/index_home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../catalog/catalog.html">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../detailPage/detailPage.html">Detail</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../About/about.html">About Us</a>
+        </li>
+      </ul>
+
+      <!-- RIGHT SECTION -->
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-flex align-items-center border rounded px-2 py-1">
+          <img src="../../assets/images/lupa.jpg" alt="Buscar" width="20" height="20" class="me-2">
+          <span>Search</span>
         </div>
-        <div class="navbar-right">
-            <div class="nav-links">
-                <div class="nav-item">Home</div>
-                <div class="nav-item">Shop</div>
-                <div class="nav-item">About</div>
-                <div class="nav-item">Contact</div>
-            </div>
-            <div class="icons">
-                <div class="icon-box">
-                    <img src="./assets/img/lupa.jpg" alt="Buscar" class="icon-img" />
-                </div>
-                <div class="icon-box">
-                    <img src="./assets/img/usuario.jpg" alt="Usuario" class="icon-img" />
-                </div>
-                <div class="icon-box">
-                    <img src="./assets/img/compras.jpg" alt="Carrito" class="icon-img" />
-                </div>
-            </div>
-        </div>
+        <a href="#" class="position-relative">
+          <img src="../../assets/images/carrito.jpg" alt="Carrito" width="30" height="30" class="rounded">
+        </a>
+        <img src="../../assets/images/foto.jpg" alt="Perfil" width="30" height="30" class="rounded-circle">
+      </div>
     </div>
-    </header>
+  </div>
+</nav>
 	
 	</header>
 
@@ -147,11 +155,27 @@
 </main>
 
 <!--Inicio Footer-->
-<footer class="footer">
-  <div> </div>
-  <!--Fin Links--> 
-  <!--Inicio iconos redes sociales--> 
-  
+
+<footer class="footer bg-light py-5 border-top">
+  <div class="footer__container container" style="max-width:auto ; margin: 0 auto;">
+    <div class="row align-items-center">
+      <div class="col-4 text-start">
+        <a href="#" class="footer__link-item text-decoration-none text-muted">Terms of Service</a>
+      </div>
+      <div class="col-4 text-center">
+        <a href="#" class="footer__link-item text-decoration-none text-muted">Privacy Policy</a>
+      </div>
+      <div class="col-4 text-end">
+        <a href="#" class="footer__link-item text-decoration-none text-muted">Contact Us</a>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col text-center">
+        <small class="text-muted">&copy; 2024 Te lo Vendo. All rights reserved.</small>
+      </div>
+    </div>
+  </div>
+</footer>
 </footer>
 <!--Fin Footer-->
 </body>
