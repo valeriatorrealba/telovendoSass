@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as vars;
+@use "sass:color";
+
+.navbar {
+  background-color: vars.$color-bg-light;
+  border-bottom: 1px solid #ddd;
+
+  &__brand-name {
+    font-weight: 600;
+    color: vars.$color-text;
+  }
+
+  &__link {
+    color: vars.$color-text;
+    font-weight: 500;
+
+    &:hover {
+        color: color.adjust(vars.$color-text, $lightness: -10%);
+    }
+  }
+
+  &__search {
+    cursor: pointer;
+
+    &-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__cart-icon {
+    border-radius: 8px;
+  }
+
+  &__profile {
+    border-radius: 50%;
+  }
+}

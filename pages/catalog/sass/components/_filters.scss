@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as vars;
+
+.catalog__filters {
+  margin-bottom: 1rem;
+
+  .btn {
+    background-color: vars.$color-highlight;
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: vars.$color-text;
+    font-weight: 500;
+    border: none;
+  }
+}
