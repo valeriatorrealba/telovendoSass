@@ -12,40 +12,42 @@
 
 <body>
     <header>
-        <div class="navbar">
-            <div class="navbar-left">
-                <div class="logo">
-                    <div class="logo-icon">
-                        <div class="square">
-                            <img src="../../assets/images/icono.jpg" alt="Logo" />
+        <nav class="navbar navbar-expand-lg bg-light px-4">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="../../assets/images/icono.jpg" alt="Logo" width="30" height="30" class="me-2">
+                    <span>Te lo Vendo</span>
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Home_Pietro/index_home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../catalog/catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../detailPage/detailPage.html">Detail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../About/about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center border rounded px-2 py-1">
+                            <img src="../../assets/images/lupa.jpg" alt="Buscar" width="20" height="20" class="me-2">
+                            <span>Search</span>
                         </div>
+                        <a href="#" class="position-relative">
+                            <img src="../../assets/images/carrito.jpg" alt="Carrito" width="30" height="30"
+                                class="rounded">
+                        </a>
+                        <img src="../../assets/images/foto.jpg" alt="Perfil" width="30" height="30"
+                            class="rounded-circle">
                     </div>
-                    <div class="logo-text">Te lo Vendo</div>
-                </div>
-                <div class="nav-links">
-                    <div class="nav-item">Home</div>
-                    <div class="nav-item">Shop</div>
-                    <div class="nav-item">About</div>
-                    <div class="nav-item">Contact</div>
                 </div>
             </div>
-            <div class="navbar-right">
-                <div class="search-box">
-                    <div class="search-icon-container">
-                        <div class="search-icon">
-                            <img src="../../assets/images/lupa.jpg" alt="buscador">
-                        </div>
-                    </div>
-                    <div class="search-text">Search</div>
-                </div>
-                <div class="cart-icon">
-                    <div class="cart-square">
-                        <img src="../../assets/images/carrito.jpg" alt="carrito">
-                    </div>
-                </div>
-                <img class="profile-pic" src="../../assets/images/foto.jpg" alt="fot de perfil">
-            </div>
-        </div>
+        </nav>
     </header>
     <main>
         <div class="container">
@@ -53,81 +55,81 @@
                 <div class="row ">
                     <div class="col-12">
                         <div class="hero">
-                            <div class="hero-content">
+                            <div class="hero__content">
                                 <img src="../../assets/images/principal-home.png" class="imagen" alt="principal imagen">
-                                <h1 class="hero-title">Discover the Latest Trends</h1>
-                                <p class="hero-subtitle">Explore our curated collection of stylish and innovative
+                                <h1 class="hero__title">Discover the Latest Trends</h1>
+                                <p class="hero__subtitle">Explore our curated collection of stylish and innovative
                                     products.
                                 </p>
-                                <button class="btn btn-danger hero-btn px-4 py-2 fw-bold">Shop Now</button>
+                                <button class="hero__btn btn-danger hero-btn px-4 py-2 fw-bold">Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="row mb-3">
+            <section class="product">
+                <div class="row my-3">
                     <div class="col-12">
-                        <h2 class="fw-bold fs-4">Featured Products</h2>
+                        <h2 class="fw-bold fs-4 product__title">Featured Products</h2>
                     </div>
                 </div>
                 <div class="row g-3 mb-4">
-                    <div class="col-md-4">
-                        <img src="../../assets/images/sillon-home.png" class="product-img mb-2" alt="Sofa">
-                        <h5 class="fw-semibold">Cozy Comfort Sofa</h5>
-                        <p class="text-muted">Sink into luxury with our plush sofa.</p>
+                    <div class="col-md-4 product__item">
+                        <img src="../../assets/images/sillon-home.png" class="product__img mb-2" alt="Sofa">
+                        <h5 class="product__subtitle fw-semibold">Cozy Comfort Sofa</h5>
+                        <p class="product__parraf text-muted">Sink into luxury with our plush sofa.</p>
                     </div>
-                    <div class="col-md-4">
-                        <img src="../../assets/images/mesa-home.png" class="product-img mb-2" alt="mesa de centro">
-                        <h5 class="fw-semibold">Elegant Dining Set</h5>
-                        <p class="text-muted">Dine in style with our sleek table.</p>
+                    <div class="col-md-4 product__item">
+                        <img src="../../assets/images/mesa-home.png" class="product__img mb-2" alt="mesa de centro">
+                        <h5 class="product__subtitle fw-semibold">Elegant Dining Set</h5>
+                        <p class="product__parraf text-muted">Dine in style with our sleek table.</p>
                     </div>
-                    <div class="col-md-4">
-                        <img src="../../assets/images/pluma-home.png" class="product-img mb-2" alt="arte de Decoracion">
-                        <h5 class="fw-semibold">Modern Art Collection</h5>
-                        <p class="text-muted">Elevate your space with our unique art.</p>
+                    <div class="col-md-4 product__item">
+                        <img src="../../assets/images/pluma-home.png" class="product__img mb-2" alt="arte de Decoracion">
+                        <h5 class="product__subtitle fw-semibold">Modern Art Collection</h5>
+                        <p class="product__parraf text-muted">Elevate your space with our unique art.</p>
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="Category">
                 <div class="row mb-3">
                     <div class="col-12">
-                        <h2 class="fw-bold fs-4">Shop by Category</h2>
+                        <h2 class="category__title fw-bold fs-4">Shop by Category</h2>
                     </div>
                 </div>
                 <div class="row g-3">
-                    <div class="col-md-4">
-                        <img src="../../assets/images/sala-home.png" class="category-img mb-2" alt="Furniture">
-                        <h6 class="fw-semibold">Furniture</h6>
+                    <div class="col-md-4 category__item">
+                        <img src="../../assets/images/sala-home.png" class="category__img mb-2" alt="Furniture">
+                        <h6 class="category__subtitle">Furniture</h6>
                     </div>
-                    <div class="col-md-4">
-                        <img src="../../assets/images/cosas-home.png" class="category-img mb-2" alt="Decoracion">
-                        <h6 class="fw-semibold">Decor</h6>
+                    <div class="col-md-4 category__item">
+                        <img src="../../assets/images/cosas-home.png" class="category__img mb-2" alt="Decoracion">
+                        <h6 class="category__subtitle">Decor</h6>
                     </div>
-                    <div class="col-md-4">
-                        <img src="../../assets/images/lampara-home.png" class="category-img mb-2" alt="lampara">
-                        <h6 class="fw-semibold">Lighting</h6>
+                    <div class="col-md-4 category__item">
+                        <img src="../../assets/images/lampara-home.png" class="category__img mb-2" alt="lampara">
+                        <h6 class="category__subtitle">Lighting</h6>
                     </div>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="bg-light py-5">
-        <div class="container">
-            <div class="row justify-content-center text-center text-md-start gy-4">
-                <div class="col-12 col-md-4">
-                    <p class="text-muted m-0">Terms of Service</p>
+    <footer class="footer bg-light py-5 border-top">
+        <div class="footer__container">
+            <div class="row align-items-center">
+                <div class="col-4 text-start">
+                    <a href="#" class="footer__link-item text-decoration-none text-muted">Terms of Service</a>
                 </div>
-                <div class="col-12 col-md-4">
-                    <p class="text-muted m-0">Privacy Policy</p>
+                <div class="col-4 text-center">
+                    <a href="#" class="footer__link-item text-decoration-none text-muted">Privacy Policy</a>
                 </div>
-                <div class="col-12 col-md-4">
-                    <p class="text-muted m-0">Contact Us</p>
+                <div class="col-4 text-end">
+                    <a href="#" class="footer__link-item text-decoration-none text-muted">Contact Us</a>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col text-center">
-                    <small class="text-muted">@2024 Te lo Vendo. All rights reserved.</small>
+                    <small class="text-muted">&copy; 2024 Te lo Vendo. All rights reserved.</small>
                 </div>
             </div>
         </div>
