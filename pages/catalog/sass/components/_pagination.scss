@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as vars;
+
+.pagination {
+  justify-content: center;
+
+  .page-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    line-height: 40px;
+    color: vars.$color-text;
+    font-weight: 400;
+    border: none;
+  }
+
+  .page-item.active .page-link {
+    background-color: vars.$color-highlight;
+    font-weight: 700;
+  }
+
+  .page-item.disabled .page-link {
+    background-color: transparent;
+    opacity: 0.5;
+  }
+}

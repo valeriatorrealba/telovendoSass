@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as vars;
+
+.footer {
+  background-color: vars.$color-bg-light;
+  border-top: 1px solid #ddd;
+  padding: 3rem 0;
+
+  &__container {
+    max-width: vars.$max-width-container;
+    margin: 0 auto;
+  }
+
+  &__link-item {
+    color: vars.$color-muted;
+    text-decoration: none;
+    font-weight: 400;
+
+    &:hover {
+      color: vars.$color-text;
+      text-decoration: underline;
+    }
+  }
+
+  &__copyright {
+    color: vars.$color-muted;
+  }
+}
