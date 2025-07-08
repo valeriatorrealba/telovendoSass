@@ -13,12 +13,17 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-light px-4">
-            <div class="container-fluid">
+            <div class="container-fluid">                
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="../../assets/images/icono.jpg" alt="Logo" width="30" height="30" class="me-2">
                     <span>Te lo Vendo</span>
-                </a>
-                <div class="collapse navbar-collapse">
+                </a>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Contenido colapsable -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="../Home_Pietro/index_home.html">Home</a>
@@ -32,8 +37,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../About/about.html">About Us</a>
                         </li>
-                    </ul>
-                    <div class="d-flex align-items-center gap-3">
+                    </ul>                    
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
                         <div class="d-flex align-items-center border rounded px-2 py-1">
                             <img src="../../assets/images/lupa.jpg" alt="Buscar" width="20" height="20" class="me-2">
                             <span>Search</span>
@@ -49,19 +54,16 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="container">
             <section>
                 <div class="row ">
                     <div class="col-12">
                         <div class="hero">
-                            <div class="hero__content">
-                                <img src="../../assets/images/principal-home.png" class="hero__imagen" alt="principal imagen">
-                                <h1 class="hero__title">Discover the Latest Trends</h1>
-                                <p class="hero__subtitle">Explore our curated collection of stylish and innovative
-                                    products.
-                                </p>
-                                <button class="hero__btn btn-danger hero-btn px-4 py-2 fw-bold">Shop Now</button>
+                            <div class="hero__content ">
+                                <img src="../../assets/images/principal-home.png" class="hero__imagen"
+                                    alt="principal imagen">
                             </div>
                         </div>
                     </div>
@@ -74,18 +76,19 @@
                     </div>
                 </div>
                 <div class="row g-3 mb-4">
-                    <div class="col-md-4 product__item">
+                    <div class="col-12 col-sm-6 col-md-4 product__item">
                         <img src="../../assets/images/sillon-home.png" class="product__img mb-2" alt="Sofa">
                         <h5 class="product__subtitle fw-semibold">Cozy Comfort Sofa</h5>
                         <p class="product__parraf text-muted">Sink into luxury with our plush sofa.</p>
                     </div>
-                    <div class="col-md-4 product__item">
+                    <div class="col-12 col-sm-6 col-md-4 product__item">
                         <img src="../../assets/images/mesa-home.png" class="product__img mb-2" alt="mesa de centro">
                         <h5 class="product__subtitle fw-semibold">Elegant Dining Set</h5>
                         <p class="product__parraf text-muted">Dine in style with our sleek table.</p>
                     </div>
-                    <div class="col-md-4 product__item">
-                        <img src="../../assets/images/pluma-home.png" class="product__img mb-2" alt="arte de Decoracion">
+                    <div class="col-12 col-sm-6 col-md-4 product__item">
+                        <img src="../../assets/images/pluma-home.png" class="product__img mb-2"
+                            alt="arte de Decoracion">
                         <h5 class="product__subtitle fw-semibold">Modern Art Collection</h5>
                         <p class="product__parraf text-muted">Elevate your space with our unique art.</p>
                     </div>
@@ -98,15 +101,15 @@
                     </div>
                 </div>
                 <div class="row g-3">
-                    <div class="col-md-4 category__item">
+                    <div class="col-12 col-sm-6 col-md-4 category__item">
                         <img src="../../assets/images/sala-home.png" class="category__img mb-2" alt="Furniture">
                         <h6 class="category__subtitle">Furniture</h6>
                     </div>
-                    <div class="col-md-4 category__item">
+                    <div class="col-12 col-sm-6 col-md-4 category__item">
                         <img src="../../assets/images/cosas-home.png" class="category__img mb-2" alt="Decoracion">
                         <h6 class="category__subtitle">Decor</h6>
                     </div>
-                    <div class="col-md-4 category__item">
+                    <div class="col-12 col-sm-6 col-md-4 category__item">
                         <img src="../../assets/images/lampara-home.png" class="category__img mb-2" alt="lampara">
                         <h6 class="category__subtitle">Lighting</h6>
                     </div>
@@ -117,13 +120,13 @@
     <footer class="footer bg-light py-5 border-top">
         <div class="footer__container">
             <div class="row align-items-center">
-                <div class="col-4 text-start">
+                <div class="col-12 col-sm-6 col-md-4 text-center">
                     <a href="#" class="footer__link-item text-decoration-none text-muted">Terms of Service</a>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-12 col-sm-6 col-md-4 text-center">
                     <a href="#" class="footer__link-item text-decoration-none text-muted">Privacy Policy</a>
                 </div>
-                <div class="col-4 text-end">
+                <div class="col-12 col-sm-6 col-md-4 text-center">
                     <a href="#" class="footer__link-item text-decoration-none text-muted">Contact Us</a>
                 </div>
             </div>

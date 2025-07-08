@@ -1,0 +1,87 @@
+@use '../abstracts/variables';
+@use '../base/base';
+
+.navbar {
+    width: 100%;
+    padding: 12px 40px;
+    border-bottom: 1px solid #e5e8eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    max-width: 480px;
+    padding: 0 10px;
+    background: #f0f5f0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    background: variables.$color;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-img {
+    width: 16px;
+    height: 16px;
+}
+
+.brand-name {
+    color: variables.$color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    gap: 36px;
+}
+
+.nav-item {
+    color: variables.$color;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+}
